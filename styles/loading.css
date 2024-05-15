@@ -1,0 +1,24 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+body {
+	background-color: white;
+	color: var(--rose-newton);
+	cursor: none;
+	font-family: 'Oswald', Arial;
+	overflow: hidden;
+}
+
+.container {
+    display: block;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-top: -2%;
+    background-image: url("../images/hints.png");
+}

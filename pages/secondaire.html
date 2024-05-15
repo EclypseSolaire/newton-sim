@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../styles/include.css">
+    <link rel="stylesheet" href="../styles/second.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Sacré Newton ! (by Damjan)</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+</head>
+<body>
+	<div class="cursor">
+        <div class="cursor__ball cursor__ball--big ">
+            <svg height="30" width="30">
+                <circle cx="15" cy="15" r="12" stroke-width="0"></circle>
+            </svg>
+        </div>
+        <div class="cursor__ball cursor__ball--small">
+            <svg height="10" width="10">
+                <circle cx="5" cy="5" r="4" stroke-width="0"></circle>
+            </svg>
+        </div>
+    </div>
+	<div id="custom-menu">
+        <ul>
+            <li id="retour"><i class="bx bxs-left-arrow-alt"></i> &nbsp; Retour à l'index</li>
+        </ul>
+    </div>
+    <div class="view-code" id="view-code">
+        <p>Made with <i class="bx bxs-brush"></i> by Damian. Voir le code source sur <a class="hoverable" href="https://github.com/EclypseSolaire/newton-sim" target="_blank">Github {/}</a></p>
+    </div>
+    <div class="cover">
+        <img src="../images/newton_timelapse.gif">
+    </div>
+    <div class="container">
+        <div class="titre">
+            <h1>... et la gravitation ?</h1>
+        </div>
+        <div class="container-flex">
+            <div class="description">
+                <p>En physique, la gravitation désigne l'une des quatre interactions élémentaires, celle qui est responsable de la force d'attraction entre deux corps, du simple fait de leur matière. Par exemple, la Terre continue de tourner autour du Soleil, parce qu'elle est attirée par sa masse. Dans le cas de la Terre et de ce qui se trouve à sa surface, on parle de gravité : la Terre attire à elle les objets, et ainsi, elle est responsable de notre poids.
+                    Elle fait aussi tomber les objets qui ne sont pas en appui sur un support, comme la célèbre pomme de Newton, celle qui est tombée du pommier sous lequel, raconte-t-on, il faisait sa sieste.
+                </p>
+                <p class="glowy">
+                    Cliquez sur l'image ci-contre pour voir une vidéo sur la gravitation !
+                </p>
+            </div>
+            <div class="lien-video">
+                <a href="https://www.youtube.com/watch?v=mZWA2UetWAg&pp=ygUPbGEgZ3Jhdml0YXRpb24g" target="_blank">
+                    <img src="../images/newton-gravitation.gif" width="350px">
+                </a>
+            </div>
+        </div>
+    </div>
+	<script src="../scripts/cursor.js"></script>
+	<script src="../scripts/all.js"></script>
+</body>
+</html>

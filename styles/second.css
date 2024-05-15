@@ -1,0 +1,32 @@
+.cover img {
+	width: 100%;
+	max-height: 400px;
+	object-fit: cover;
+	border-bottom: 3px #fb3ff2 solid;
+}
+
+.titre {
+	letter-spacing: 3px;
+	font-family: Inconsolata;
+}
+
+.description {
+    max-width: 500px;
+    text-align: justify;
+}
+
+.container {
+	display: block;
+	margin-left: 30px;
+    width: 100vw;
+    text-align: center;
+	justify-content: center;
+    align-items: center;
+}
+
+.container-flex {
+    display: flex;
+    margin-left: 28%;
+    align-items: center;
+    gap: 50px;
+}

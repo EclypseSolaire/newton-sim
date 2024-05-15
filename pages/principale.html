@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../styles/include.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Sacré Newton ! (by Damjan)</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+</head>
+<body>
+	<div class="cursor">
+        <div class="cursor__ball cursor__ball--big ">
+            <svg height="30" width="30">
+                <circle cx="15" cy="15" r="12" stroke-width="0"></circle>
+            </svg>
+        </div>
+        <div class="cursor__ball cursor__ball--small">
+            <svg height="10" width="10">
+                <circle cx="5" cy="5" r="4" stroke-width="0"></circle>
+            </svg>
+        </div>
+    </div>
+	<div id="custom-menu">
+        <ul>
+            <li id="gravitation"><i class="bx bxs-right-arrow-alt"></i> &nbsp; Aller à la gravitation tout de suite</li>
+            <li id="retour"><i class="bx bxs-left-arrow-alt"></i> &nbsp; Retour à l'index</li>
+        </ul>
+    </div>
+    <div class="view-code" id="view-code">
+        <p>Made with <i class="bx bxs-brush"></i> by Damian. Voir le code source sur <a class="hoverable" href="https://github.com/EclypseSolaire/newton-sim" target="_blank">Github {/}</a></p>
+    </div>
+    <div class="cover">
+        <img src="../images/newton_timelapse.gif">
+    </div>
+    <div class="container">
+        <div class="titre">
+            <h1>Qui est Isaac Newton ?</h1>
+        </div>
+        <div class="mot-container">
+            <div class="mot">
+                <img src="../images/newton_cartoon.png" width="200px">
+                <p>Physicien</p>
+                <div class="boite">
+                    <p>Isaac Newton est un scientifique anglais né le 25 décembre 1642 et mort le 20 mars 1727 (à 84 ans) à Kensington, en Angleterre.</p>
+                </div>
+            </div>
+            <div class="mot">
+                <img src="../images/newton_prisme_lumiere.png" width="225px">
+                <p>Inventeur</p>
+                <div class="boite">
+                    <p>Il est considéré comme l'un des plus grands scientifiques de tous les temps en raison de ses nombreuses découvertes importantes. Il est surtout reconnu pour avoir énoncé la théorie de la gravitation universelle, créé le calcul infinitésimal, décrit la diffraction de la lumière et conçu le télescope.</p>
+                </div>
+            </div>
+            <div class="mot">
+                <a href="secondaire.html" class="mot-grav" title="Cliquez moi dessus!"><img  src="../images/newton-gravitation.gif" width="220px"></a>
+                <p>Gravitation</p>
+                <div class="boite">
+                    <p>La gravitation est la force d'attraction mutuelle entre les objets dotés de masse, régissant les mouvements célestes et terrestres. Cette force, formulée par Isaac Newton, est universelle et gouverne les interactions entre les corps massifs dans l'univers.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+	<script src="../scripts/cursor.js"></script>
+	<script src="../scripts/all.js"></script>
+	<script src="../scripts/main.js"></script>
+</body>
+</html>
